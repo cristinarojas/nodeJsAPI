@@ -1,0 +1,27 @@
+{
+  "name": "nodejsapi",
+  "version": "1.0.0",
+  "description": "Building a NodeJs API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristinarojas/nodeJsAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristinarojas/nodeJsAPI/issues"
+  },
+  "homepage": "https://github.com/cristinarojas/nodeJsAPI#readme",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
