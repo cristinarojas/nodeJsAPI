@@ -22,7 +22,7 @@ module.exports = function(app, db) {
     //console.log('res------------->', res);
     // USING res PARAMETER we will create the note here.
     //res.send('done') // when this is executed we are doing post request to the /notes route.
-    //console.log('req body-->', req.body)
+    console.log('req body-->', req.body)
     res.json(({
       data: 'recibido'
     })) // when this is executed we are doing post request to the /notes route.
